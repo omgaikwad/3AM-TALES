@@ -1,0 +1,30 @@
+.main-body {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+.signup-container {
+  margin-top: 6rem;
+  width: 25%;
+}
+
+.signup-btn {
+  width: 100%;
+}
+
+.login-redirect-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-redirect-link {
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.signup-heading {
+  text-align: center;
+}

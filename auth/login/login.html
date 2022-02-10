@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://crimsonui-beta.netlify.app/css/components.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <title>3AM TALES</title>
+  </head>
+  <body>
+    <nav class="navbar" id="main-navbar">
+      <div class="left-navbar">
+        <div class="logo-title">
+          <a href="" id="logo-title-link">3AM TALES</a>
+        </div>
+      </div>
+      <div class="center-navbar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" name="" id="search-bar" placeholder="Search" />
+      </div>
+      <div class="right-navbar">
+        <a href=""> <i class="fa-regular fa-heart fa-lg navbar-icons"></i></a>
+
+        <a href="" class="navbar-cart"
+          ><i class="fa-solid fa-cart-shopping fa-lg navbar-icons"></i>
+          <span>Cart</span>
+        </a>
+        <button class="btn btn-link">
+          <a href="#">Login</a>
+        </button>
+      </div>
+    </nav>
+
+    <main class="main-body">
+      <div class="login-container">
+        <form>
+          <h3 class="login-heading">Login</h3>
+
+          <label for="form-email">Email</label>
+          <input id="form-email" type="email" placeholder="abc@xyz.com" />
+
+          <label for="form-password">Password</label>
+          <input
+            id="form-password"
+            type="password"
+            placeholder="••••••••••••••"
+          />
+
+          <div class="form-checkbox">
+            <div class="checkbox-container">
+              <input type="checkbox" />
+              <p>Remember Me</p>
+            </div>
+            <a href="" class="forgot-password">Forgot your Password?</a>
+          </div>
+
+          <div class="form-buttons">
+            <button class="btn btn-primary login-btn">Login</button>
+          </div>
+          <div class="signup-redirect-container">
+            <a href="../signup/signup.html" class="signup-redirect-link"
+              >Create New Account <i class="fa-solid fa-chevron-right"></i
+            ></a>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
