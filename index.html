@@ -5,26 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="shortcut icon"
+      href="./assets/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
       rel="stylesheet"
       href="https://crimsonui-beta.netlify.app/css/components.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>3AM TALES</title>
   </head>
   <body>
     <nav class="navbar" id="main-navbar">
       <div class="left-navbar">
-        <img src="./assets/logo/3am tales.png" alt="" class="logo-img" />
+        <!-- <img src="./assets/logo/3am tales.png" alt="" class="logo-img" /> -->
         <div class="logo-title">
           <a href="" id="logo-title-link">3AM TALES</a>
         </div>
       </div>
+      <div class="center-navbar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" name="" id="search-bar" placeholder="Search" />
+      </div>
       <div class="right-navbar">
-        <a href=""> <i class="fab fa-github fa-2x navbar-icons"></i></a>
+        <a href=""> <i class="fa-regular fa-heart fa-lg navbar-icons"></i></a>
 
-        <a href=""> <i class="fab fa-twitter fa-2x navbar-icons"></i></a>
-
-        <a href=""> <i class="fab fa-linkedin-in fa-2x navbar-icons"></i></a>
+        <a href="" class="navbar-cart"
+          ><i class="fa-solid fa-cart-shopping fa-lg navbar-icons"></i>
+          <span>Cart</span>
+        </a>
+        <button class="btn btn-link">
+          <a href="#">Login</a>
+        </button>
       </div>
     </nav>
+
+    <div class="main-body">
+      <section class="main-banner">
+        <img
+          src="./assets/images/banner.jpg"
+          alt="main-banner"
+          class="banner-img"
+        />
+        <div class="banner-content-on-top">
+          <p class="banner-description">
+            Explore wide genres of Books for all of your 3AM cravings.
+          </p>
+          <button class="btn btn-primary explore-btn">Shop Now</button>
+        </div>
+      </section>
+
+      <h2 class="category-heading">Genre</h2>
+      <section class="category-container">
+        <div class="category">
+          <a href="">
+            <img
+              src="./assets/book-images/origin-danBrown.jpg"
+              alt="crime-mystery-thrillers"
+            />
+            <p class="category-description">Crime, Mystery and Thrillers</p></a
+          >
+        </div>
+        <div class="category">
+          <a href="">
+            <img
+              src="./assets/book-images/immortals-of-meluha.jpg"
+              alt="myths-legends-sagas"
+            />
+            <p class="category-description">Myths, Legends and Sagas</p></a
+          >
+        </div>
+        <div class="category">
+          <a href="">
+            <img
+              src="./assets/book-images/the-magic-drums.jpg"
+              alt="indian-storytellers"
+            />
+            <p class="category-description">Indian Storytellers</p></a
+          >
+        </div>
+        <div class="category">
+          <a href="">
+            <img
+              src="./assets/book-images/the-krishna-key.jpg"
+              alt="action-adventure"
+            />
+            <p class="category-description">Action and Adventure</p></a
+          >
+        </div>
+
+        <div class="category">
+          <a href="">
+            <img
+              src="./assets/book-images/the-alchemist.jpg"
+              alt="fantasy-fiction"
+            />
+            <p class="category-description">Fantasy Fiction</p></a
+          >
+        </div>
+        <div class="category">
+          <a href="">
+            <img src="./assets/book-images/sapiens.jpg" alt="non-fiction" />
+            <p class="category-description">Non-Fiction</p></a
+          >
+        </div>
+      </section>
+    </div>
+
+    <footer class="main-footer">
+      <div class="credits">
+        <a href="https://github.com/omgaikwad" target="_blank"
+          >made with 🚀 by om</a
+        >
+      </div>
+    </footer>
   </body>
 </html>
