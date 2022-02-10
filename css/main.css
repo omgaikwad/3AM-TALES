@@ -82,11 +82,8 @@ ul {
 }
 .category-container {
   display: flex;
-  /* align-items: center; */
   justify-content: space-around;
   flex-wrap: wrap;
-  /* height: 50rem; */
-  /* border: 2px solid black; */
 }
 
 .category {
@@ -94,7 +91,6 @@ ul {
   box-sizing: border-box;
   height: 20rem;
   width: 14rem;
-  /* border: 1px solid var(--orange); */
   padding: 6px 4px;
   margin: 2rem 6rem;
 }
