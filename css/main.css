@@ -12,13 +12,12 @@ a {
 ul {
   list-style-type: none;
 }
-.btn {
-  padding: 0.3rem 1rem;
-}
 .logo-title a {
   color: var(--primary-color);
 }
-
+.btn-primary a {
+  color: var(--white);
+}
 #main-navbar {
   background-color: var(--white);
   height: 5rem;
