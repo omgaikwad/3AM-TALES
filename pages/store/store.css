@@ -92,6 +92,9 @@
       "filter filter filter filter filter"
       "store store store store store";
   }
+  .filter-container {
+    margin-right: 0;
+  }
 }
 
 @media screen and (max-width: 480px) {
