@@ -8,13 +8,15 @@
 }
 .signup-container {
   margin-top: 6rem;
-  width: 25%;
+  width: fit-content;
 }
 
 .signup-btn {
   width: 100%;
 }
-
+.form-checkbox input {
+  margin-right: 1rem;
+}
 .login-redirect-container {
   display: flex;
   justify-content: center;

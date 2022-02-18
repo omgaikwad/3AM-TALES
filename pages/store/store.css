@@ -10,6 +10,7 @@
 }
 .store-vertical-products {
   display: flex;
+  justify-content: space-around;
   gap: 1rem;
   flex-wrap: wrap;
 }
@@ -70,4 +71,28 @@
   font-size: 12px;
   font-weight: 500;
   color: var(--gray);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1280px) {
+  .main-body {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "filter filter store store store store store";
+  }
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .main-body {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "filter filter filter filter filter"
+      "store store store store store";
+  }
+}
+
+@media screen and (max-width: 480px) {
 }

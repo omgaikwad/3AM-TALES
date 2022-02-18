@@ -8,7 +8,7 @@
 }
 .login-container {
   margin-top: 6rem;
-  width: 25%;
+  width: fit-content;
 }
 
 .login-btn {
@@ -31,6 +31,7 @@
 
 .checkbox-container {
   display: flex;
+  margin-right: 1rem;
 }
 .form-checkbox {
   display: flex;
