@@ -7,7 +7,7 @@
   height: auto;
 }
 .signup-container {
-  margin-top: 6rem;
+  margin-top: 8px;
   width: fit-content;
 }
 
@@ -29,4 +29,27 @@
 }
 .signup-heading {
   text-align: center;
+}
+.create-password-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.password-eye-icon {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+}
+.password-again-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.password-again-eye-icon {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
 }

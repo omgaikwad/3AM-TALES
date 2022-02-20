@@ -42,3 +42,14 @@
   font-size: 0.8rem;
   color: var(--primary-color);
 }
+.login-password-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.login-password-eye-icon {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+}
