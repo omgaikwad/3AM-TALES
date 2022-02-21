@@ -4,9 +4,9 @@
 
 3AM TALES is an online marketplace to buy books whether it is fiction, self-help, biography or non-fiction. It is one stop destination for all things books.
 
-## Demo
+## Live Project GIFs
 
-Insert gif or link to demo
+![](./assets/project-gif/3amtalesScreenRecording.gif)
 
 ## Live Project Link
 
